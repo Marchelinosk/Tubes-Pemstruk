@@ -1,28 +1,17 @@
-# Judul besar atau nama program yang dibuat
+# Aplikasi Visualisasi Grafik Data
 
-- Nama mahasiswa 1 (NIM) (80%)
-- Nama mahasiswa 2 (NIM) (100%)
-- Nama mahasiswa 3 (NIM) (20%)
-- Nama mahasiswa 4 (NIM) (100%)
-- dst.
+- Marchelino Senduk Kaunang (10241040) (100%)
+- Adelia Cyntia Renata (10241003) (100%)
+- Devina Dian Saputri (10241022) (100%)
+- Muhammad Yuspa Ardiansyah (10241052) (100%)
 
 ## Pendahuluan
-Beberapa paragraf pengantar untuk membawa pembaca memahami program yang kalian 
-buat. Dapat menggunakan struktur dari hal yang umum mengerucut ke hal yang khusus.
-Dapat juga menceritakan sejarah dari program yang kalian buat, misal program
-yang kalian buat merupakan program yang umum dibuat oleh orang lain seperti
-contoh ketika membuat program _fighting game_, ceritakan sejarah video game
-untuk _fighting game_. Dan jelaskan posisi program kalian
-dari lingkup program yang lain yang mungkin lebih besar dan 
-lebih rumit.
-Serta tambahkan tujuan kalian membuat program tersebut.
-Di bagian ini boleh menambahkan sitasi.
+Dengan bantuan grafik, data yang kompleks dan besar dapat disederhanakan menjadi bentuk yang mudah dipahami, seperti diagram batang, grafik garis, pie hart, dan scatter plot. Visualisasi tidak hanya membantu dalam mengenali pola, tren, dan hubungan antar data tetapi juga meningkatkan komunikasi dan pengambilan informasi yang tersedia.
+Visualisasi data ada pada ribuan tahun yang lalu, salah satu pelopor visualisasi data adalah william Playfair, seorang ekonom asal skotlandia pada akhir abad ke-18 memperkenalkan grafik batang, grafik garis, dan pie chart sebagai cara untuk menyajikan data ekonomi dan perdagangan. Diabad ke-19, Florence Nightingale menggunakan diagram plar area untuk menunujukkan data statistik kesehatan selama perang krinea, yang kemudian membantu meningkatkan sistem pelayanan kesehatan. Visualisasi data mengacu pada teknik yangdigunakan untuk mengkomunikasi data atau informasi dengan membuatnya sebagai objek visual dalam grafik. Tujuan kami membuat program visualisasi grafik data adalah untuk menyajikan data dalam bentuk visualisasi dan interaktif serta menyederhanakan penyajian informasi secara interaktif dan mudah dimengerti.
 
 ## Tinjauan Pustaka
 Ceritakan program-program yang serupa dengan program yang kalian buat yang
 dibuat oleh orang lain
-
-Contoh sitasi menggunakan `<a href>` <a href="#div_ref1">(Google, 2024)</a>, <a href="#div_ref2">(Flanagan, 2020)</a>
 
 
 ## Metode Pembuatan
@@ -44,8 +33,9 @@ Kekurangan, kelebihan, dan rencana tahapan apabila program dilanjutkan
 
 ## Daftar pustaka
 - <div id="div_ref1"> 
-    https://www.google.com. Diakses tanggal 02 Mei 2024.
+    https://en.wikipedia.org/wiki/William_Playfair. Diakses tanggal 29 Mei 2025.
   </div>
-- <div id="div_ref2">
-    D. Flanagan, 2020. <i>Javascript: The Definitive Guide</i>, 7th. Ed. O'Reilly Media. 
+
+- <div id="div_ref2"> 
+    https://id.wikipedia.org/wiki/Visualisasi_data. Diakses tanggal 29 Mei 2025.
   </div>
