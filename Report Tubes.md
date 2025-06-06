@@ -4,6 +4,7 @@
 - Adelia Cyntia Renata (10241003) (100%)
 - Devina Dian Saputri (10241022) (100%)
 - Muhammad Yuspa Ardiansyah (10241052) (100%)
+-  siti inayah
 
 ## Pendahuluan
 Dengan bantuan grafik, data yang kompleks dan besar dapat disederhanakan menjadi bentuk yang mudah dipahami, seperti diagram batang, grafik garis, pie hart, dan scatter plot. Visualisasi tidak hanya membantu dalam mengenali pola, tren, dan hubungan antar data tetapi juga meningkatkan komunikasi dan pengambilan informasi yang tersedia.
