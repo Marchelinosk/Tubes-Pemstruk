@@ -79,9 +79,13 @@ Pada bagian javascript dibuat sebagai bagian yang dapat membaca file excel, mena
   Tools yang berfungsi untuk mengekspor grafik ke dalam bentuk dokumen PDF.
 
 ## Hasil Program
-Sertakan gambar, diagram, atau link videos.
-Sertakan ulasan selama proses pembuatan. Misal ada tidaknya
-fitur yang bisa diselesaikan di dalam program.
+<img src="Capture_01.PNG">
+<img src="Capture_02.PNG">
+
+Pada saat pembuatan terdapat syntax yang error pada HTML bagian body dikarenakan mungkin Plugin HTML linter salah mendeteksi isi tag sebagai invalid. Adanya ekstensi yang menganggap kombinasi atribut seperti accept=".xlsx,.xls" kurang lengkap, atau tidak sesuai dengan standar ketat HTML5 (meskipun sebenarnya valid). VS Code belum mengenali elemen karena belum lengkap struktur HTML-nya (misal belum ada **html**, **head**, dan **body**)
+<img src="Capture_03.PNG">
+Jadi, kami mendapatkan solusi dan memperbaiki nya dengan dengan membuat syntax **label** Dalam hal ini, label digunakan sebagai pengganti visual dari input file, dan ketika pengguna mengklik label tersebut, browser akan secara otomatis membuka dialog pemilihan file karena label tersebut terhubung ke input melalui atribut for yang merujuk pada id milik input. Serta memudahkan untuk mengatur style pada tempat menginputkan file excel.
+<img src="Capture_04.PNG">
 
 Dapat juga menyertakan tautan video demonstrasi penggunaan atau peng-operasian
 program yang kalian buat.
