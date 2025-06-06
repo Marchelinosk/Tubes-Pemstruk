@@ -100,15 +100,15 @@ Kekurangan, kelebihan, dan rencana tahapan apabila program dilanjutkan
   </div>
 
 - <div id="div_ref2"> 
-    https://repository.uisi.ac.id/6052/. Diakses tanggal 5 Mei 2025.
+    https://repository.uisi.ac.id/6052/. Diakses tanggal 5 Juni 2025.
   </div>
   
 - <div id="div_ref2"> 
-    https://repository.uinsaizu.ac.id/29594/1/Prosiding%20240.pdf. Diakses tanggal 5 Mei 2025.
+    https://repository.uinsaizu.ac.id/29594/1/Prosiding%20240.pdf. Diakses tanggal 5 Juni 2025.
   </div>
 
 - <div id="div_ref2"> 
-    https://abecindonesia.org/assets/proceedings/Prosiding%20ABEC%202021.pdf. Diakses tanggal 5 Mei 2025.
+    https://abecindonesia.org/assets/proceedings/Prosiding%20ABEC%202021.pdf. Diakses tanggal 5 Juni 2025.
   </div>
 
   
