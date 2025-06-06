@@ -19,7 +19,14 @@ Penelitian lain dilakukan oleh Sari dan Handayani (2022) yang membuat dashboard 
 
 Selain itu, Pratama dan Nurhayati (2020) juga mengembangkan program visualisasi data menggunakan kombinasi D3.js dan SheetJS. Dalam program tersebut, pengguna dapat mengunggah file Excel, yang kemudian dikonversi dan divisualisasikan menjadi grafik interaktif. Program ini cukup mirip dengan program kami, terutama pada bagian penggunaan SheetJS untuk membaca file Excel. Namun, penggunaan D3.js memiliki kompleksitas lebih tinggi dibanding Chart.js yang kami gunakan, dan belum mendukung ekspor grafik secara langsung ke format PNG atau PDF. 
 
-Berdasarkan beberapa referensi di atas, dapat disimpulkan bahwa program kami memiliki kelebihan, khususnya dalam mendukung impor file Excel, serta menyediakan fitur ekspor grafik ke dalam format PNG dan PDF. Kami juga memperhatikan desain antarmuka agar tampil lebih modern dan mudah digunakan, termasuk penggunaan CSS3 dan Flexbox untuk penataan layout. 
+Berdasarkan beberapa referensi di atas, dapat disimpulkan bahwa program kami memiliki kelebihan, khususnya dalam mendukung impor file Excel, serta menyediakan fitur ekspor grafik ke dalam format PNG dan PDF. Kami juga memperhatikan desain antarmuka agar tampil lebih modern dan mudah digunakan, termasuk penggunaan CSS3 dan Flexbox untuk penataan layout.
+
+- Putra, A., Wijaya, H., & Rahman, A. (2021). Implementasi Visualisasi Data Menggunakan Chart.js pada Sistem Informasi Penjualan. Jurnal Teknologi Informasi dan Komputer,  7(2), 101-110.
+  
+- Sari, D. P., & Handayani, R. (2022). Perancangan Dashboard Visualisasi Data Akademik Menggunakan Chart.js dan Google Sheets. Jurnal Sistem Informasi, 8(1), 43-51.
+  
+- Pratama, Y. A., & Nurhayati, R. (2020). Visualisasi Interaktif Data Survei Menggunakan D3.js dan XLSX.js. Jurnal Informatika, 14(3), 120-128. 
+
 
 
 ## Metode Pembuatan
@@ -91,3 +98,17 @@ Kekurangan, kelebihan, dan rencana tahapan apabila program dilanjutkan
 - <div id="div_ref2"> 
     https://id.wikipedia.org/wiki/Visualisasi_data. Diakses tanggal 29 Mei 2025.
   </div>
+
+- <div id="div_ref2"> 
+    https://repository.uisi.ac.id/6052/. Diakses tanggal 5 Mei 2025.
+  </div>
+  
+- <div id="div_ref2"> 
+    https://repository.uinsaizu.ac.id/29594/1/Prosiding%20240.pdf. Diakses tanggal 5 Mei 2025.
+  </div>
+
+- <div id="div_ref2"> 
+    https://abecindonesia.org/assets/proceedings/Prosiding%20ABEC%202021.pdf. Diakses tanggal 5 Mei 2025.
+  </div>
+
+  
