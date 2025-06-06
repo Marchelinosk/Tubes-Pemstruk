@@ -4,14 +4,22 @@
 - Adelia Cyntia Renata (10241003) (100%)
 - Devina Dian Saputri (10241022) (100%)
 - Muhammad Yuspa Ardiansyah (10241052) (100%)
+- Siti Inayah Wulandari (10241068) (100%)
 
 ## Pendahuluan
 Dengan bantuan grafik, data yang kompleks dan besar dapat disederhanakan menjadi bentuk yang mudah dipahami, seperti diagram batang, grafik garis, pie hart, dan scatter plot. Visualisasi tidak hanya membantu dalam mengenali pola, tren, dan hubungan antar data tetapi juga meningkatkan komunikasi dan pengambilan informasi yang tersedia.
 Visualisasi data ada pada ribuan tahun yang lalu, salah satu pelopor visualisasi data adalah william Playfair, seorang ekonom asal skotlandia pada akhir abad ke-18 memperkenalkan grafik batang, grafik garis, dan pie chart sebagai cara untuk menyajikan data ekonomi dan perdagangan. Diabad ke-19, Florence Nightingale menggunakan diagram plar area untuk menunujukkan data statistik kesehatan selama perang krinea, yang kemudian membantu meningkatkan sistem pelayanan kesehatan. Visualisasi data mengacu pada teknik yangdigunakan untuk mengkomunikasi data atau informasi dengan membuatnya sebagai objek visual dalam grafik. Tujuan kami membuat program visualisasi grafik data adalah untuk menyajikan data dalam bentuk visualisasi dan interaktif serta menyederhanakan penyajian informasi secara interaktif dan mudah dimengerti.
 
 ## Tinjauan Pustaka
-Ceritakan program-program yang serupa dengan program yang kalian buat yang
-dibuat oleh orang lain
+Dalam pembuatan aplikasi visualisasi grafik data berbasis web, kami menemukan beberapa penelitian dan program serupa yang memiliki tujuan yang hampir sama, yaitu menyajikan data secara visual dan interaktif agar mudah dipahami. 
+
+Program serupa pernah dibuat oleh Putra et al. (2021) dalam jurnal berjudul Implementasi Visualisasi Data Menggunakan Chart.js pada Sistem Informasi Penjualan. Dalam penelitian tersebut, mereka membuat sistem informasi penjualan yang menampilkan data dalam bentuk grafik batang dan grafik garis menggunakan library Chart.js. Meskipun fungsinya cukup mirip dengan program kami, sistem tersebut belum mendukung fitur impor data dari Excel ataupun ekspor ke PNG dan PDF seperti yang kami sediakan dalam aplikasi kami. 
+
+Penelitian lain dilakukan oleh Sari dan Handayani (2022) yang membuat dashboard visualisasi data akademik berbasis web. Mereka menggunakan Chart.js dan menghubungkannya dengan Google Sheets sebagai sumber datanya. Meskipun mereka tidak menggunakan file Excel secara langsung seperti program kami, pendekatan mereka memperlihatkan fleksibilitas penggunaan Chart.js dalam menampilkan data secara real-time. Namun, fitur ekspor grafik ke dalam bentuk file seperti yang ada pada program kami belum tersedia dalam sistem mereka. 
+
+Selain itu, Pratama dan Nurhayati (2020) juga mengembangkan program visualisasi data menggunakan kombinasi D3.js dan SheetJS. Dalam program tersebut, pengguna dapat mengunggah file Excel, yang kemudian dikonversi dan divisualisasikan menjadi grafik interaktif. Program ini cukup mirip dengan program kami, terutama pada bagian penggunaan SheetJS untuk membaca file Excel. Namun, penggunaan D3.js memiliki kompleksitas lebih tinggi dibanding Chart.js yang kami gunakan, dan belum mendukung ekspor grafik secara langsung ke format PNG atau PDF. 
+
+Berdasarkan beberapa referensi di atas, dapat disimpulkan bahwa program kami memiliki kelebihan, khususnya dalam mendukung impor file Excel, serta menyediakan fitur ekspor grafik ke dalam format PNG dan PDF. Kami juga memperhatikan desain antarmuka agar tampil lebih modern dan mudah digunakan, termasuk penggunaan CSS3 dan Flexbox untuk penataan layout. 
 
 
 ## Metode Pembuatan
