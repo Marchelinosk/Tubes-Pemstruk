@@ -11,21 +11,25 @@ Dengan bantuan grafik, data yang kompleks dan besar dapat disederhanakan menjadi
 Visualisasi data ada pada ribuan tahun yang lalu, salah satu pelopor visualisasi data adalah william Playfair, seorang ekonom asal skotlandia pada akhir abad ke-18 memperkenalkan grafik batang, grafik garis, dan pie chart sebagai cara untuk menyajikan data ekonomi dan perdagangan. Diabad ke-19, Florence Nightingale menggunakan diagram plar area untuk menunujukkan data statistik kesehatan selama perang krinea, yang kemudian membantu meningkatkan sistem pelayanan kesehatan. Visualisasi data mengacu pada teknik yangdigunakan untuk mengkomunikasi data atau informasi dengan membuatnya sebagai objek visual dalam grafik. Tujuan kami membuat program visualisasi grafik data adalah untuk menyajikan data dalam bentuk visualisasi dan interaktif serta menyederhanakan penyajian informasi secara interaktif dan mudah dimengerti.
 
 ## Tinjauan Pustaka
-Dalam pembuatan aplikasi visualisasi grafik data berbasis web, kami menemukan beberapa penelitian dan program serupa yang memiliki tujuan yang hampir sama, yaitu menyajikan data secara visual dan interaktif agar mudah dipahami. 
+Dalam pembuatan aplikasi visualisasi grafik data berbasis web, kami menemukan beberapa penelitian dan program serupa yang memiliki tujuan yang hampir sama, yaitu Program-program ini menggunakan teknologi yang sama seperti Chart.js, SheetJS, dan jsPDF untuk menampilkan serta mengelola data dalam bentuk grafik interaktif. 
 
-Program serupa pernah dibuat oleh Putra et al. (2021) dalam jurnal berjudul Implementasi Visualisasi Data Menggunakan Chart.js pada Sistem Informasi Penjualan. Dalam penelitian tersebut, mereka membuat sistem informasi penjualan yang menampilkan data dalam bentuk grafik batang dan grafik garis menggunakan library Chart.js. Meskipun fungsinya cukup mirip dengan program kami, sistem tersebut belum mendukung fitur impor data dari Excel ataupun ekspor ke PNG dan PDF seperti yang kami sediakan dalam aplikasi kami. 
+Salah satu contoh program yang mirip adalah Dashboard Kumpulan Chart.js yang dikembangkan oleh Burhanuddin (2023). Dalam proyek ini, Burhanuddin menyusun berbagai jenis grafik seperti grafik batang (bar chart), pie chart, dan line chart menggunakan pustaka Chart.js. Data dalam program ini dimasukkan langsung dalam kode JavaScript tanpa integrasi pembacaan file Excel. Namun, dari segi tampilan antarmuka dan fungsi visualisasi, program tersebut memiliki kemiripan dengan program kami, yaitu menyajikan data statistik dalam bentuk grafik secara interaktif (Burhanuddin, 2023). 
 
-Penelitian lain dilakukan oleh Sari dan Handayani (2022) yang membuat dashboard visualisasi data akademik berbasis web. Mereka menggunakan Chart.js dan menghubungkannya dengan Google Sheets sebagai sumber datanya. Meskipun mereka tidak menggunakan file Excel secara langsung seperti program kami, pendekatan mereka memperlihatkan fleksibilitas penggunaan Chart.js dalam menampilkan data secara real-time. Namun, fitur ekspor grafik ke dalam bentuk file seperti yang ada pada program kami belum tersedia dalam sistem mereka. 
+Contoh lainnya dapat ditemukan dalam dokumentasi resmi Jspreadsheet, sebuah pustaka spreadsheet berbasis web yang terintegrasi langsung dengan Chart.js. Dalam dokumentasi tersebut, ditunjukkan contoh implementasi di mana data dari tabel online dapat langsung divisualisasikan ke dalam grafik menggunakan Chart.js. Meskipun data tidak diambil dari file Excel, pendekatan visualisasi dan interaktivitas yang digunakan sangat mirip dengan aplikasi kami (Jspreadsheet, 2024). 
 
-Selain itu, Pratama dan Nurhayati (2020) juga mengembangkan program visualisasi data menggunakan kombinasi D3.js dan SheetJS. Dalam program tersebut, pengguna dapat mengunggah file Excel, yang kemudian dikonversi dan divisualisasikan menjadi grafik interaktif. Program ini cukup mirip dengan program kami, terutama pada bagian penggunaan SheetJS untuk membaca file Excel. Namun, penggunaan D3.js memiliki kompleksitas lebih tinggi dibanding Chart.js yang kami gunakan, dan belum mendukung ekspor grafik secara langsung ke format PNG atau PDF. 
+Banyak juga proyek di GitHub dan CodePen yang membagikan contoh visualisasi data menggunakan kombinasi SheetJS, Chart.js, dan jsPDF. Kombinasi ini memungkinkan pengguna untuk mengunggah file Excel, mengubah data menjadi format JSON, menampilkannya dalam bentuk grafik menggunakan Chart.js, dan mengekspornya sebagai file PDF menggunakan jsPDF. Dokumentasi resmi dari SheetJS dan jsPDF juga memberikan tutorial lengkap yang relevan dengan aplikasi kami (SheetJS, 2024; jsPDF, 2024). Beberapa pengguna bahkan mempublikasikan template sederhana sebagai referensi dalam pembuatan aplikasi berbasis web yang menangani data Excel. 
 
-Berdasarkan beberapa referensi di atas, dapat disimpulkan bahwa program kami memiliki kelebihan, khususnya dalam mendukung impor file Excel, serta menyediakan fitur ekspor grafik ke dalam format PNG dan PDF. Kami juga memperhatikan desain antarmuka agar tampil lebih modern dan mudah digunakan, termasuk penggunaan CSS3 dan Flexbox untuk penataan layout.
+Program kami menggabungkan semua pendekatan dari referensi di atas ke dalam satu antarmuka yang utuh, di mana pengguna dapat mengunggah file Excel, melihat grafik yang dihasilkan, dan mengunduh grafik tersebut sebagai file gambar atau PDF. Kami juga menambahkan sentuhan desain menggunakan CSS3 dan Google Fonts agar tampilan lebih menarik dan ramah pengguna. Dengan melihat banyaknya program yang memiliki pendekatan serupa, kami dapat menyimpulkan bahwa metode yang kami gunakan termasuk metode umum dan efektif dalam pengembangan aplikasi visualisasi data berbasis web. 
 
-- Putra, A., Wijaya, H., & Rahman, A. (2021). Implementasi Visualisasi Data Menggunakan Chart.js pada Sistem Informasi Penjualan. Jurnal Teknologi Informasi dan Komputer,  7(2), 101-110.
+- Burhanuddin, 04. (2023). Dashboard Kumpulan Chart.js. GitHub Repository.
+
+- Jspreadsheet. (2024). Spreadsheet charts with ChartJS.
   
-- Sari, D. P., & Handayani, R. (2022). Perancangan Dashboard Visualisasi Data Akademik Menggunakan Chart.js dan Google Sheets. Jurnal Sistem Informasi, 8(1), 43-51.
-  
-- Pratama, Y. A., & Nurhayati, R. (2020). Visualisasi Interaktif Data Survei Menggunakan D3.js dan XLSX.js. Jurnal Informatika, 14(3), 120-128. 
+- Chart.js. (2024). Chart.js Examples.  
+
+- SheetJS. (2024). Excel to JSON Example. 
+
+- jsPDF. (2024). jsPDF GitHub Repository. 
 
 
 
@@ -107,15 +111,23 @@ Kekurangan, kelebihan, dan rencana tahapan apabila program dilanjutkan
   </div>
 
 - <div id="div_ref2"> 
-    https://repository.uisi.ac.id/6052/. Diakses tanggal 5 Juni 2025.
+    https://github.com/04burhanuddin/Dashboard-Kumpulan-Chart-JS. Diakses tanggal 5 Juni 2025.
   </div>
   
 - <div id="div_ref2"> 
-    https://repository.uinsaizu.ac.id/29594/1/Prosiding%20240.pdf. Diakses tanggal 5 Juni 2025.
+    https://jspreadsheet.com/docs/v8/examples/spreadsheet-with-charts. Diakses tanggal 5 Juni 2025.
   </div>
 
 - <div id="div_ref2"> 
-    https://abecindonesia.org/assets/proceedings/Prosiding%20ABEC%202021.pdf. Diakses tanggal 5 Juni 2025.
+    https://www.chartjs.org/docs/latest/samples. Diakses tanggal 5 Juni 2025.
+  </div>
+
+  - <div id="div_ref2"> 
+    https://docs.sheetjs.com. Diakses tanggal 5 Juni 2025.
+  </div>
+
+  - <div id="div_ref2"> 
+    https://github.com/parallax/jsPDF. Diakses tanggal 5 Juni 2025.
   </div>
 
   
