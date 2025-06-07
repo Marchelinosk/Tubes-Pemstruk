@@ -82,6 +82,8 @@ Pada bagian javascript dibuat sebagai bagian yang dapat membaca file excel, mena
 - jsPDF
   Tools yang berfungsi untuk mengekspor grafik ke dalam bentuk dokumen PDF.
 
+<img src="Flow Grafik Data.jpg">
+
 ## Hasil Program
 <img src="Capture_01.PNG">
 <img src="Capture_02.PNG">
