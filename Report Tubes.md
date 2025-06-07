@@ -85,8 +85,6 @@ Pada bagian javascript dibuat sebagai bagian yang dapat membaca file excel, mena
 <img src="Flow Grafik Data.jpg">
 
 ## Hasil Program
-<img src="Capture_01.PNG">
-<img src="Capture_02.PNG">
 
 Pada saat pembuatan terdapat syntax yang error pada HTML bagian body dikarenakan mungkin Plugin HTML linter salah mendeteksi isi tag sebagai invalid. Adanya ekstensi yang menganggap kombinasi atribut seperti accept=".xlsx,.xls" kurang lengkap, atau tidak sesuai dengan standar ketat HTML5 (meskipun sebenarnya valid). VS Code belum mengenali elemen karena belum lengkap struktur HTML-nya (misal belum ada **html**, **head**, dan **body**)
 
