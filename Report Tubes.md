@@ -43,28 +43,6 @@ Pada program yang telah kami buat adalah **Aplikasi Visualisasi Grfaik Data** be
   jsPDF merupakan library yang berfungsi untuk membuat dan mengekspor grafik dari Chart.js lalu mengubahnya menjadi bentuk file PDF.
 
 Pada Bagian tampilan web (css) kami menggunakan font dari Google Fonts yaitu "Poppins" dan kami menggunakan fitur dari CSS3. Latar belakang halaman menggunakan gradasi biru mudah ke putih, judul halaman diberi hijau kebiruan yang kontras. Button untuk "Download PNG" dan "Download PDF" diberi warna hijau toska. Bagian kanvas yang digunakan untuk menampilkan grafik dari Chart.js juga diperindah. Kanvas diberi latar belakang putih dengan sudut yang membulat dan bayangan halus di sekelilingnya. Ini membuat grafik tampak seperti berada di dalam sebuah kartu atau panel, sehingga tampil lebih elegan dan mudah dipisahkan dari latar belakang halaman. Penataan posisi grafik juga diatur menggunakan Flexbox agar tampil tepat di tengah layar.
-
-```js
-button {
-  ...
-  background-color: #009688;
-  ...
-}
-button:hover {
-  background-color: #00796b;
-}
-```
-
-Pada bagian canvas menampilkan grafik diberi warna latar belakang putih.
-
-```js
-canvas {
-  margin-top: 30px;
-  background-color: white;
-  border-radius: 12px;
-  box-shadow: 0 4px 16px rgba(0, 0, 0, 0.1);
-}
-```
 Ada beberapa library dan Tools yang digunakan:
 - Google Fonts
   Digunakan untuk mengimpor dan menerapkan font "Poppins" ke seluruh elemen teks. Ini termasuk ke dalan web typography tool dari google.
