@@ -72,6 +72,8 @@ Jadi, kami mendapatkan solusi dan memperbaiki nya dengan dengan membuat syntax *
 <img src="Capture_04.PNG">
 
 ## Kesimpulan
+Selama pembuatan program **Visualisasi Grafik Data, kami belajar banyak hal yaitu dapat mengetahui cara menggunakan library seperti **Chart.js**, **D3.js** bahkan tool seperti canvas di html. Kami juga belajar bagaimana cara menghubungkan data dengan elemen visual seperti grafik garis, batang, dan titik. Kami juga mempelajari bagaiman cara kerja dari CSV, JSON dan API lalu mempelajari bagaimana program merender/membuat grafik secara otomatis ketika ada file yang di inputkan dan melihat bagaiman cara kerja fungsi JSON mengkonversi data menjadi grafik lalu gambar tersebut bisa di ekspor ke dalam bentuk PNG ataupun file dokumen PDF.
+
 Adapun hasil akhir dari laporan ini, dapat disimpulkan bahwa aplikasi visualisasi data berbasis web ini memudahkan pengguna dalam mengubah data dari file Excel menjadi sebuh grafik yang jelas dan mudah dimengerti. Di mana pada bagian JavaScript kmai menggunakan Chart.js untuk menampilkan data yang berasal dari exel menjadi sebuah grafik, lalu adapula SheetJS yang digunakan untuk membaca file Exel yang diberikan, dan yang terakhir ada JsPDF sebuah fitur mengekspor grafik ke dalam bentuk format PNG maupun dokumen PDF.
 
 Aplikasi visualisasi data berbasis web yang kami buat memiliki beberapa keunggulan, seperti:
