@@ -93,13 +93,17 @@ Jadi, kami mendapatkan solusi dan memperbaiki nya dengan dengan membuat syntax *
 
 <img src="Capture_04.PNG">
 
-
-Dapat juga menyertakan tautan video demonstrasi penggunaan atau peng-operasian
-program yang kalian buat.
-
 ## Kesimpulan
-Ceritakan hal-hal yang dapat kalian pelajari selama proses pembuatan program tersebut.
-Kekurangan, kelebihan, dan rencana tahapan apabila program dilanjutkan
+Adapun hasil akhir dari laporan ini, dapat disimpulkan bahwa aplikasi visualisasi data berbasis web ini memudahkan pengguna dalam mengubah data dari file Excel menjadi sebuh grafik yang jelas dan mudah dimengerti. Di mana pada bagian JavaScript kmai menggunakan Chart.js untuk menampilkan data yang berasal dari exel menjadi sebuah grafik, lalu adapula SheetJS yang digunakan untuk membaca file Exel yang diberikan, dan yang terakhir ada JsPDF sebuah fitur mengekspor grafik ke dalam bentuk format PNG maupun dokumen PDF.
+
+Aplikasi visualisasi data berbasis web yang kami buat memiliki beberapa keunggulan, seperti:
+1. Mendukung impor file Exel(.xlsx/.xls) tanpa mengubah format terlebih dahulu
+2. Menampilkan sebuah visualisasi yang mudah dibaca, data yang dimasukkan akan otomatis berubah dan ditampilkan dalam bentuk sebuah grafik batang yang mudah dipahami
+3. Adanya fitur ekspor ke PNG dan PDF, data yang sudah ditampilkan dalam bentuk grafik bisa disimpan sebagai gambar(PNG) atau dokumen (PDF)
+4. Tidak perlu instalasi, karena program berbasis web maka program ini bisa dijalankan langsung dari browser
+5. Membantu dalam pengerjaan laporan ataupun presentasi, karena grafik yang ditampilkan bisa disimpan menjadi bentuk PDF ataupun PNG bisa langsung dimasukkan ke dalam laporan 
+
+Kami berharap program ini dapat menjadi alat bantu visualisasi data yang praktis untuk digunakan, dan dapat terus dikembangkan lagi dengan fitur-fitur lainnya yang lebih menarik dan bemanfaat bagi pengguna.
 
 ## Daftar pustaka
 - <div id="div_ref1"> 
