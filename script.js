@@ -30,8 +30,8 @@ const ctx = document.getElementById('chartCanvas').getContext('2d');
             datasets: [{
               label: `${keys[1]} berdasarkan ${keys[0]}`,
               data: values,
-              backgroundColor: 'rgba(75, 192, 192, 0.5)',
-              borderColor: 'rgba(75, 192, 192, 1)',
+              backgroundColor: 'rgba(154, 21, 59, 0.69)',
+              borderColor: 'rgb(154, 21, 59)',
               borderWidth: 1
             }]
           },
