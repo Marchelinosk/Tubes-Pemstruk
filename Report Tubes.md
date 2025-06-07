@@ -72,8 +72,6 @@ Jadi, kami mendapatkan solusi dan memperbaiki nya dengan dengan membuat syntax *
 <img src="Capture_04.PNG">
 
 ## Kesimpulan
-Selama pembuatan program **Visualisasi Grafik Data, kami belajar banyak hal yaitu dapat mengetahui cara menggunakan library seperti **Chart.js**, **D3.js** bahkan tool seperti canvas di html. Kami juga belajar bagaimana cara menghubungkan data dengan elemen visual seperti grafik garis, batang, dan titik. Kami juga mempelajari bagaiman cara kerja dari CSV, JSON dan API lalu mempelajari bagaimana program merender/membuat grafik secara otomatis ketika ada file yang di inputkan dan melihat bagaiman cara kerja fungsi JSON mengkonversi data menjadi grafik lalu gambar tersebut bisa di ekspor ke dalam bentuk PNG ataupun file dokumen PDF.
-
 Adapun hasil akhir dari laporan ini, dapat disimpulkan bahwa aplikasi visualisasi data berbasis web ini memudahkan pengguna dalam mengubah data dari file Excel menjadi sebuh grafik yang jelas dan mudah dimengerti. Di mana pada bagian JavaScript kmai menggunakan Chart.js untuk menampilkan data yang berasal dari exel menjadi sebuah grafik, lalu adapula SheetJS yang digunakan untuk membaca file Exel yang diberikan, dan yang terakhir ada JsPDF sebuah fitur mengekspor grafik ke dalam bentuk format PNG maupun dokumen PDF.
 
 Aplikasi visualisasi data berbasis web yang kami buat memiliki beberapa keunggulan, seperti:
@@ -81,7 +79,12 @@ Aplikasi visualisasi data berbasis web yang kami buat memiliki beberapa keunggul
 2. Menampilkan sebuah visualisasi yang mudah dibaca, data yang dimasukkan akan otomatis berubah dan ditampilkan dalam bentuk sebuah grafik batang yang mudah dipahami
 3. Adanya fitur ekspor ke PNG dan PDF, data yang sudah ditampilkan dalam bentuk grafik bisa disimpan sebagai gambar(PNG) atau dokumen (PDF)
 4. Tidak perlu instalasi, karena program berbasis web maka program ini bisa dijalankan langsung dari browser
-5. Membantu dalam pengerjaan laporan ataupun presentasi, karena grafik yang ditampilkan bisa disimpan menjadi bentuk PDF ataupun PNG bisa langsung dimasukkan ke dalam laporan 
+5. Membantu dalam pengerjaan laporan ataupun presentasi, karena grafik yang ditampilkan bisa disimpan menjadi bentuk PDF ataupun PNG bisa langsung dimasukkan ke dalam laporan
+
+Selain itu adapula kekurangan dari aplikasi visualisasi data berbasis web yang kami buat, di antaranya:
+1. Jenis grafik masih terbatas, dari kami saat ini hanya tersedia tampilan grafik batang sehingga masih kurang untuk pengguna yang membutuhkan grafik berbentuk lainnya
+2. Tidak ada penyimpanan data sementara, tidak adanya riwayat data yang sudah diunggah sehingga pengguna masih harus mengunggah ulang file setiap kali membuka aplikasi kembali
+3. Belum tersedia opsi kustomisasi grafik, contohnya seperti ketinga ingin mengubah ukuran dari grafik atau elemen lainnya, selain itu juga seperti mengubah warda grafik sesuai dengan kebutuhan pengguna
 
 Kami berharap program ini dapat menjadi alat bantu visualisasi data yang praktis untuk digunakan, dan dapat terus dikembangkan lagi dengan fitur-fitur lainnya yang lebih menarik dan bemanfaat bagi pengguna.
 
