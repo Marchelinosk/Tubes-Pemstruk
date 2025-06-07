@@ -85,12 +85,12 @@ Pada bagian javascript dibuat sebagai bagian yang dapat membaca file excel, mena
 <img src="Flow Grafik Data.jpg">
 
 ## Hasil Program
-
 Pada saat pembuatan terdapat syntax yang error pada HTML bagian body dikarenakan mungkin Plugin HTML linter salah mendeteksi isi tag sebagai invalid. Adanya ekstensi yang menganggap kombinasi atribut seperti accept=".xlsx,.xls" kurang lengkap, atau tidak sesuai dengan standar ketat HTML5 (meskipun sebenarnya valid). VS Code belum mengenali elemen karena belum lengkap struktur HTML-nya (misal belum ada **html**, **head**, dan **body**)
 
 <img src="Capture_03.PNG">
 
 Jadi, kami mendapatkan solusi dan memperbaiki nya dengan dengan membuat syntax **label** Dalam hal ini, label digunakan sebagai pengganti visual dari input file, dan ketika pengguna mengklik label tersebut, browser akan secara otomatis membuka dialog pemilihan file karena label tersebut terhubung ke input melalui atribut for yang merujuk pada id milik input. Serta memudahkan untuk mengatur style pada tempat menginputkan file excel.
+
 <img src="Capture_04.PNG">
 
 
