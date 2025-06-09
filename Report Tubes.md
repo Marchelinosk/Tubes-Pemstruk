@@ -114,11 +114,11 @@ Kami berharap program ini dapat menjadi alat bantu visualisasi data yang praktis
     https://www.chartjs.org/docs/latest/samples. Diakses tanggal 5 Juni 2025.
   </div>
 
-  - <div id="div_ref2"> 
+- <div id="div_ref2"> 
     https://docs.sheetjs.com. Diakses tanggal 5 Juni 2025.
   </div>
 
-  - <div id="div_ref2"> 
+- <div id="div_ref2"> 
     https://github.com/parallax/jsPDF. Diakses tanggal 5 Juni 2025.
   </div>
 
