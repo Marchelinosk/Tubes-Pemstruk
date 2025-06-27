@@ -50,7 +50,7 @@ const ctx = document.getElementById('chartCanvas').getContext('2d');
 
     function downloadPNG() {
         const link = document.createElement('a');
-        link.download = 'grafik-excel.png';
+        link.download = 'grafik-download.png';
         link.href = document.getElementById('chartCanvas').toDataURL('image/png');
         link.click();
     }
@@ -63,5 +63,5 @@ const ctx = document.getElementById('chartCanvas').getContext('2d');
 
         pdf.text("Visualisasi Grafik dari Excel", 10, 10);
         pdf.addImage(imgData, 'PNG', 10, 20, 180, 100);
-        pdf.save('grafik-excel.pdf');
+        pdf.save('grafik-download.pdf');
     }
